@@ -2,7 +2,7 @@
 
 #include "SpatialStruct.h"
 
-namespace Altair
+namespace RadiusClustering
 {
 	Integer scaleCluster2DPoints(std::vector<Point> Points, const double scale, const bool stableCC = false, const bool verbose = false)
 	{
