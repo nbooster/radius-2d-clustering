@@ -43,7 +43,7 @@ int main(int argc, char* argv[])
 
 	std::cout << "\nComputing Clusters...\n";
 	auto begin = std::chrono::steady_clock::now();
-	auto result = RadiusClustering::scaleCluster2DPoints(Points, scaleLength, stableCC, verbose);
+	auto result = Radius2DClustering::scaleCluster2DPoints(Points, scaleLength, stableCC, verbose);
 	auto end = std::chrono::steady_clock::now();
 
 	std::cout << "\nNumber of clusters: " << result;
